@@ -1,0 +1,12 @@
+.headerWrapper {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #999999;
+  padding: 12px;
+  a {
+    font-size: 32px; 
+    color: #555555; 
+    text-decoration: none;
+    margin-right: 12px;
+  }
+}
