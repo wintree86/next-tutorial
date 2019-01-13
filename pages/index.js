@@ -1,10 +1,10 @@
 import React from "react";
-import "../styles.scss";
+import styles from "../styles.scss";
 
 class App extends React.PureComponent {
   render() {
     return (
-      <div className="example">
+      <div className={styles.example}>
         Hello world 
         <p>scoped!</p>
       </div>
